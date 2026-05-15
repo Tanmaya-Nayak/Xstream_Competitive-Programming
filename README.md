@@ -11,25 +11,27 @@ My solutions to competitive programming problems.
 
 ## Structure
 
+```
 codeforces/
-├── practice/{800→2200+} → CF problems by rating
-├── div2/ → Div2 contest solutions
-├── div3/ → Div3 contest solutions
-├── educational/ → Educational round solutions
-└── virtual/ → Virtual contest solutions
+├── practice/{800→2200+}
+├── div2/
+├── div3/
+├── educational/
+└── virtual/
 
 atcoder/
-├── abc/ → AtCoder Beginner Contest
-├── arc/ → AtCoder Regular Contest
-└── agc/ → AtCoder Grand Contest
+├── abc/
+├── arc/
+└── agc/
 
 leetcode/
-├── daily/ → Daily problems
-├── weekly/ → Weekly contest
-└── topic/{dp,graphs,strings,trees,math}→ Topic wise practice
+├── daily/
+├── weekly/
+└── topic/{dp,graphs,strings,trees,math}
 
-notes/ → Concepts and patterns
-stl-practice/ → STL drill files
+notes/
+stl-practice/
+```
 
 ## Goal
 
