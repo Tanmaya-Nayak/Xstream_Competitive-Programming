@@ -2,3 +2,5 @@
 *.o
 a.out
 .DS_Store
+*.exe
+# add any extensionless binaries pattern if needed
