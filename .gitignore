@@ -3,8 +3,14 @@
 a.out
 .DS_Store
 *.exe
-# add any extensionless binaries pattern if needed
+
+# Compiled CP binaries: ignore any file with no extension inside codeforces/
+# (this matches files like "271A_Beautiful_Year" with no suffix,
+#  but will NOT touch *.cpp files)
+codeforces/**/*
+!codeforces/**/*.cpp
+!codeforces/**/*/
+
 **/2218A_The_67th_Integer_Problem
 **/2218B_The_67th_Integer_Problem
 **/2218C_The_67th_Permutation_Problem
-codeforces/**/*[^.][^c][^p][^p]
